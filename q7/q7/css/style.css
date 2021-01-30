@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.box-1{
+.balloon-box{
   position: relative;
   border-radius: 30px;
   width: 500px;
@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 
-.box-1:before,.box-1:after{
+.balloon-box:before,.balloon-box:after{
   content: "";
   position: absolute;
   border: solid 20px transparent;
@@ -20,11 +20,11 @@
   left: 30px;
   }
 
-.box-1:before{
+.balloon-box:before{
   border-top: 30px solid #8f5a0a; 
 }
 
-.box-1:after{
+.balloon-box:after{
   border-top: 30px solid #fad296;
   margin-top: -10px;
 }

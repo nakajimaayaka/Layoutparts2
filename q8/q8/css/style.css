@@ -8,20 +8,13 @@
 }
 
 .picture-2{
-  background: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
+  background: url(../../image/coffee-background.jpg) no-repeat;
 }
 
 .picture-3{
-  background: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background: url(../../image/coffee-background.jpg)no-repeat center/cover;
 }
 
 .picture-4{
-  background: url(../../image/coffee-background.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  background: url(../../image/coffee-background.jpg)no-repeat center/contain;
 }
